@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    background-color: honeydew;
+    background-color: rgb(235, 235, 235);
 }
 .banner-principal{
     background-image: url('https://cdn.vox-cdn.com/thumbor/lQIuXztG51s2Nl6Or7WnoAfDWVY=/0x352:4272x2755/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/37207996/shutterstock_161077550.0.0.jpg');
@@ -9,6 +9,36 @@ body{
     height: 100px;
     position: relative;
     opacity: 0.8;
+    
+}
+.whatsapp {
+    position:fixed;
+    width:45px;
+    height:45px;
+    bottom:14px;
+    right:13px;
+    background-color:#4dc247;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    font-weight: lighter;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:7.8px;
+  }
+.headroom {
+    transition: transform .6s ease;
+}
+
+.headroom--top{
+    transform: translateY(-0%);
+}
+
+.headroom--not-top{
+    transform: translateY(-76.8%);
 }
 .banner-principal h2{
     text-align: center;
@@ -16,6 +46,9 @@ body{
     margin: 0;
 }
 .banner-principal h3{
+    display: flex;
+    align-self: center;
+    justify-content: center;
     text-align: center;
     color: rgb(247, 247, 247);
     margin: 0;
@@ -70,4 +103,12 @@ a{
     .nav-bar{
         justify-content: space-between;
     }
+}
+.menu-completo{
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
