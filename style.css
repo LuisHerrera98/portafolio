@@ -38,12 +38,17 @@ section{
 
   /*ESTILO DE LOS ARTICULOS */
 .titulo-articulos{
+    margin-bottom: 5px;
+    margin-top: 5px;
     font-family:cursive;
     font-size: 20px;
     text-align: center;
     color: rgb(46, 44, 44);
 }
 .p-articulos{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 17px;
     margin-left: 10px; 
     margin-right: 10px;
@@ -65,8 +70,14 @@ article{
     border-radius: 10%;
 }
 @media only screen and (max-width: 400px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }
     article{
-        width: 42% !important;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        width: 47% !important;
         
     }
 }

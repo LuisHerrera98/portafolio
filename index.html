@@ -6,6 +6,8 @@
     <title>Portafolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> 
+    <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    <link rel="icon" href="mascara-anonymous-v-venganza-vendetta-disfraces-fiestas-D_NQ_NP_249221-MCO20740659967_052016-F.jpg">
 </head>
 <body>
     <div class="menu-completo" id="header">
@@ -35,28 +37,22 @@
     </main>
     <h1 style="margin-left: 25px; font-size: 25px; color: crimson; text-align: center;">Proyectos y practicas</h1>
         <hr>
-    <section>
-        <article>
+    <section class="caja-productos">
+        <article class="caja-producto">
+            <a href="https://luisherrera98.github.io/libreria-Masonry/">
+                <h3 class="titulo-articulos">Masonry-Galeria</h3>
+                <p class="p-articulos" >Ordenar imagenes como Pinterest</p>
+                <img class="imagen-articulo" src="masonry.webp" alt="">
+            </a>
+        </article>
+        <article class="caja-producto">
             <a href="https://luisherrera98.github.io/modoOscuro/">
                 <h3 class="titulo-articulos">Modo Oscuro</h3>
-                <p class="p-articulos" >Con css y JavaScript puro</p>
+                <p class="p-articulos" >Modo oscuro con JavaScript puro</p>
                 <img class="imagen-articulo" src="modoOscuro.webp" alt="">
             </a>
         </article>
-        <article>
-            <a href="https://luisherrera98.github.io/modoOscuro/">
-                <h3 class="titulo-articulos">Modo Oscuro</h3>
-                <img class="imagen-articulo" src="modoOscuro.webp" alt="">
-            </a>
-        </article>
-        <article>
-            <a href="https://luisherrera98.github.io/modoOscuro/">
-                <h3 class="titulo-articulos">Modo Oscuro</h3>
-                <p class="p-articulos" >Modo oscuro en una pagina , con css y JavaScript puro</p>
-                <img class="imagen-articulo" src="modoOscuro.webp" alt="">
-            </a>
-        </article>
-        <article>
+        <article class="caja-producto">
             <a href="https://luisherrera98.github.io/modoOscuro/">
                 <h3 class="titulo-articulos">Modo Oscuro</h3>
                 <p class="p-articulos" >Modo oscuro en una pagina , con css y JavaScript puro</p>
@@ -66,6 +62,7 @@
     </section>
     <a href="https://wa.link/ql89uw" class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
     <script src="jquery.min.js"></script>
+    <script src="masonry.js"></script>
     <script src="script.js"></script>
     <script src="headroom.min.js"></script>
     <script src="menu.js"></script>
