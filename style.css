@@ -34,6 +34,8 @@ body{
 section{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
   /*ESTILO DE LOS ARTICULOS */
@@ -60,8 +62,9 @@ article{
     width: 23%;
     height: auto;
     background-color: rgb(177, 175, 175);
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     box-shadow: 0px 0px 12px rgb(0, 0, 0);
 }
 .imagen-articulo{
@@ -73,16 +76,302 @@ article{
     section{
         display: flex;
         justify-content: space-around;
-    }
+    }   
     article{
-        margin-left: 1.5%;
-        margin-right: 1.5%;
-        width: 47% !important;
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 45% !important;
         
     }
 }
-
-
+@media only screen and (min-width: 401px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 45.89% !important;
+        
+    }
+}
+@media only screen and (min-width: 470px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 46% !important;
+        
+    }
+}
+@media only screen and (min-width: 500px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 46.3% !important;
+        
+    }
+}
+@media only screen and (min-width: 550px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 46.725% !important;
+        
+    }
+}
+@media only screen and (min-width: 610px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 46.954% !important;
+        
+    }
+}
+@media only screen and (min-width: 670px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 47.136% !important;
+        
+    }
+}
+@media only screen and (min-width: 700px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 30.8% !important;
+        
+    }
+}
+@media only screen and (min-width: 740px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 30.95% !important;
+        
+    }
+}
+@media only screen and (min-width: 780px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 31% !important;
+        
+    }
+}
+@media only screen and (min-width: 820px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 31.1% !important;
+        
+    }
+}
+@media only screen and (min-width: 860px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 31.19% !important;
+        
+    }
+}
+@media only screen and (min-width: 900px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 31.25% !important;
+        
+    }
+}
+@media only screen and (min-width: 940px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 31.32297% !important;
+        
+    }
+}
+@media only screen and (min-width: 1000px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.22% !important;
+        
+    }
+}
+@media only screen and (min-width: 1100px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.34% !important;
+        
+    }
+}
+@media only screen and (min-width: 1200px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.44% !important;
+        
+    }
+}
+@media only screen and (min-width: 1300px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.52% !important;
+        
+    }
+}
+@media only screen and (min-width: 1400px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.591% !important;
+        
+    }
+}
+@media only screen and (min-width: 1500px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.64% !important;
+        
+    }
+}
+@media only screen and (min-width: 1600px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.70% !important;
+        
+    }
+}
+@media only screen and (min-width: 1700px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.749% !important;
+        
+    }
+}
+@media only screen and (min-width: 1800px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.791% !important;
+        
+    }
+}
+@media only screen and (min-width: 1900px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.82% !important;
+        
+    }
+}
+@media only screen and (min-width: 2500px){
+    section{
+        display: flex;
+        justify-content: space-around;
+    }   
+    article{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+        width: 23.9% !important;
+        
+    }
+}
 
 
 
